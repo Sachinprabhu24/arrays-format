@@ -5,6 +5,7 @@ public class Arraydeletion{
         for (int i=deletionArray;i<numbers.length-1;i++){
             numbers[i]=numbers[i+1];
         }
+        numbers[numbers.length-1]=0;
         for (int i=0;i<numbers.length-1;i++){
             System.out.print(numbers[i]+" ");
         }
